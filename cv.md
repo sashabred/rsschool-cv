@@ -20,12 +20,26 @@ I`m passionate about solving problems and learning new things.
 
 # Code Example
 ```
-function sum(a, b) {
-  return a + b;
+function DNAStrand(dna){
+  let newstring="";
+  for (var i = 0; i < dna.length; i++) {
+    switch(dna.charAt(i)) {
+      case 'A':
+        newstring+='T'
+        break;
+      case 'T':
+        newstring+='A'
+        break;
+      case 'C':
+        newstring+='G'
+        break;
+      case 'G':
+        newstring+='C'
+        break;
+      }
+  }
+  return newstring;
 }
-
-let result = sum(1, 2);
-alert( result );
 ```
 
 # Experience
