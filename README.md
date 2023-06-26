@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sashabred.github.io/rsschool-cv/cv,
